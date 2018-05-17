@@ -10,16 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var txtName: UITextField!
+    @IBOutlet weak var txtAddress: UITextField!
+    @IBOutlet weak var txtCity: UITextField!
+    @IBOutlet weak var txtMobile: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func btnSaveClick(_ sender: Any) {
+        
+        
+        let dict = ["nameV":txtName.text,"addressV":txtAddress.text,"cityV":txtCity.text,"mobileV":txtMobile.text]
+        
+        DatabaseHelper.shareInstance.save(object: dict as! [String : String])
     }
-
-
+    
 }
 

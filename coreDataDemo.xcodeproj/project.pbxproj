@@ -15,6 +15,11 @@
 		E908E89D20AB79BE00700614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E908E89B20AB79BE00700614 /* LaunchScreen.storyboard */; };
 		E908E8A820AB79BF00700614 /* coreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908E8A720AB79BF00700614 /* coreDataDemoTests.swift */; };
 		E908E8B320AB79BF00700614 /* coreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908E8B220AB79BF00700614 /* coreDataDemoUITests.swift */; };
+		E908E8C220AB7A3C00700614 /* Students+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908E8C020AB7A3C00700614 /* Students+CoreDataClass.swift */; };
+		E908E8C320AB7A3C00700614 /* Students+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908E8C120AB7A3C00700614 /* Students+CoreDataProperties.swift */; };
+		E908E8C520AB7DF400700614 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908E8C420AB7DF400700614 /* DatabaseHelper.swift */; };
+		E908E8C720AB8FC400700614 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908E8C620AB8FC400700614 /* TableViewCell.swift */; };
+		E908E8C920AB8FF600700614 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908E8C820AB8FF600700614 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		E908E8AE20AB79BF00700614 /* coreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E908E8B220AB79BF00700614 /* coreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataDemoUITests.swift; sourceTree = "<group>"; };
 		E908E8B420AB79BF00700614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E908E8C020AB7A3C00700614 /* Students+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Students+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E908E8C120AB7A3C00700614 /* Students+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Students+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E908E8C420AB7DF400700614 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		E908E8C620AB8FC400700614 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E908E8C820AB8FF600700614 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				E908E88F20AB79BE00700614 /* AppDelegate.swift */,
 				E908E89120AB79BE00700614 /* ViewController.swift */,
 				E908E89320AB79BE00700614 /* Main.storyboard */,
+				E908E8C620AB8FC400700614 /* TableViewCell.swift */,
+				E908E8C820AB8FF600700614 /* ListViewController.swift */,
+				E908E8C420AB7DF400700614 /* DatabaseHelper.swift */,
+				E908E8C020AB7A3C00700614 /* Students+CoreDataClass.swift */,
+				E908E8C120AB7A3C00700614 /* Students+CoreDataProperties.swift */,
 				E908E89920AB79BE00700614 /* Assets.xcassets */,
 				E908E89B20AB79BE00700614 /* LaunchScreen.storyboard */,
 				E908E89E20AB79BE00700614 /* Info.plist */,
@@ -263,8 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E908E89820AB79BE00700614 /* coreDataDemo.xcdatamodeld in Sources */,
+				E908E8C220AB7A3C00700614 /* Students+CoreDataClass.swift in Sources */,
 				E908E89220AB79BE00700614 /* ViewController.swift in Sources */,
 				E908E89020AB79BE00700614 /* AppDelegate.swift in Sources */,
+				E908E8C520AB7DF400700614 /* DatabaseHelper.swift in Sources */,
+				E908E8C720AB8FC400700614 /* TableViewCell.swift in Sources */,
+				E908E8C920AB8FF600700614 /* ListViewController.swift in Sources */,
+				E908E8C320AB7A3C00700614 /* Students+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
